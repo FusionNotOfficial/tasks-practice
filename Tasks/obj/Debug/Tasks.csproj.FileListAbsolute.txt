@@ -1,0 +1,7 @@
+C:\Users\bags4\source\repos\Tasks\Tasks\bin\Debug\Tasks.exe.config
+C:\Users\bags4\source\repos\Tasks\Tasks\bin\Debug\Tasks.exe
+C:\Users\bags4\source\repos\Tasks\Tasks\bin\Debug\Tasks.pdb
+C:\Users\bags4\source\repos\Tasks\Tasks\obj\Debug\Tasks.csproj.AssemblyReference.cache
+C:\Users\bags4\source\repos\Tasks\Tasks\obj\Debug\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\bags4\source\repos\Tasks\Tasks\obj\Debug\Tasks.exe
+C:\Users\bags4\source\repos\Tasks\Tasks\obj\Debug\Tasks.pdb
