@@ -10,7 +10,7 @@ namespace Tasks
     {
         static void Main(string[] args)
         {
-            STasks.s_task24(5, 12);
+            STasks.z_task4(1, 50);
             Console.ReadLine();
         }
     }

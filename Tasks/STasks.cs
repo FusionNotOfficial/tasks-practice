@@ -142,7 +142,71 @@ namespace Tasks
         }
         public static void s_task25(int inRadius, int outRadius)
         {
-
+            double s1 = Math.PI * Math.Pow(inRadius, 2);
+            double s2 = Math.PI * Math.Pow(outRadius, 2);
+            Console.WriteLine("Площадь кольца равна: " + (s2 - s1));
+        }
+        public static void s_task26(int x, int y)
+        {
+            int z = (int)Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2));
+            Console.WriteLine("Периметр: " + (x + y + z));
+        }
+        public static void s_task27(int a, int b)
+        {
+            Console.WriteLine("Среднее арифметическое модулей: " + ((Math.Abs(a) + Math.Abs(b)) / 2));
+            Console.WriteLine("Среднее геометрическое модулей: " + (Math.Sqrt((Math.Abs(a) * Math.Abs(b)))));
+        }
+        public static void s_task28(double appleKoef, double cookieKoef, double candyKoef, double apples, double cookies, double candys)
+        {
+            Console.WriteLine("Стоимость яблок: " + appleKoef * apples);
+            Console.WriteLine("Стоимость печенья: " + cookieKoef * cookies);
+            Console.WriteLine("Стоимость конфет: " + candyKoef * candys);
+        }
+        public static void s_task29(double monitor, double block, double keyboard, double mouse, int amount)
+        {
+            Console.WriteLine($"Стоимость {amount} компьютеров: {(monitor + block + keyboard + mouse) * amount}");
+        }
+        public static void z_task1()
+        {
+            for(int i = 100; i <= 200; ++i)
+            {
+                if (i % 3 == 0)
+                    Console.WriteLine(i);
+            }
+        }
+        public static void z_task2(int a, int b, int c)
+        {
+            for (int i = a; i <= b; ++i)
+            {
+                if (i % c == 0)
+                    Console.WriteLine(i);
+            }
+        }
+        public static void z_task3()
+        {
+            int temp = 0;
+            for (int i = 0; i <= 10; ++i)
+            {
+                if (i % 2 != 0)
+                    temp += i;
+            }
+            Console.WriteLine(temp);
+        }
+        public static void z_task4(int a, int b)
+        {
+            int temp = 0;
+            for (int i = a; i <= b; ++i)
+            {
+                if (i % 4 == 0)
+                    temp += i;
+            }
+            Console.WriteLine(temp);
+        }
+        public void swap<T>(ref T a, ref T b)
+        {
+            T temp = a;
+            a = b;
+            b = temp;
         }
         private static int EnterNotNullValue()
         {
